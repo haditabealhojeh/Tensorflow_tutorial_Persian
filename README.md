@@ -214,25 +214,21 @@
 
 ## اجرای کد
 
-If you have followed the above installation instructions, you should
-now be able to run the tutorials in the Python Notebooks:
+اگر دستورالعم‌های بالا را اجرا کرده باشید، با دستور زیر می‌توانید کدها را در نوتبوک پایتون اجرا کنید:
 
     cd ~/development/TensorFlow-Tutorials/  # Your installation directory.
     jupyter notebook
 
-This should start a web-browser that shows the list of tutorials. Click on a tutorial to load it.
+دستور فوق لیستی از آموزش‌ها را در مرورگر شما نمایش خواهد داد. با انتخاب هرکدام از آن‌ها می‌توانید کد هر بخش را ببینید و اجرا کنید.
 
-### Run in Google Colab
+### اجرا در Google Colab
 
-If you do not want to install anything on your own computer, then the Notebooks
-can be viewed, edited and run entirely on the internet by using
-[Google Colab](https://colab.research.google.com). There is a
-[YouTube video](https://www.youtube.com/watch?v=Hs6HI2YWchM) explaining how to do this.
-You click the "Google Colab"-link next to each tutorial listed above.
-You can view the Notebook on Colab but in order to run it you need to login using
-your Google account.
-Then you need to execute the following commands at the top of the Notebook,
-which clones the contents of this repository to your work-directory on Colab.
+اگر مایل نیستید چیزی در کامپیوتر شخصی تان نصب کنید می‌توانید کدهای آموزش را در
+[Google Colab](https://colab.research.google.com)ببینید، ویرایش کنید و اجرا نمایید.
+ویدئوی [YouTube video](https://www.youtube.com/watch?v=Hs6HI2YWchM) نحوه این کار را نمایش می‌دهد.
+شما می‌توانید لینک "Google Colab" را از لیست سرفص موضوعات بالای صفحه انتخاب کنید.
+برای اجرا کد لازم است ابتدا یک حساب کاربری بسازید.
+در مرحله بعد،با اجرای دستورات زیر در ابتدای نوتبوک،کل کدهای آموزشی و را به دایرکتوری colab شما کپی می‌کند.,
 
     import os
     work_dir = "/content/TensorFlow-Tutorials/"
@@ -240,18 +236,15 @@ which clones the contents of this repository to your work-directory on Colab.
         !git clone https://github.com/Hvass-Labs/TensorFlow-Tutorials.git
     os.chdir(work_dir)
 
-All required packages should already be installed on Colab, otherwise you
-can run the following command:
+پکیج‌های پیش‌نیاز در colab نصب شده هستند اما اگر خطایی دریافت کردید می‌توانید با دستور زیر از نصب آن‌ها اطمینان حاصل کنید:
 
     !pip install -r requirements.txt
 
-## Older Versions
+## نسخه‌های قبلی
 
-Sometimes the source-code has changed from that shown in the YouTube videos. This may be due to
-bug-fixes, improvements, or because code-sections are moved to separate files for easy re-use.
+برخی اوقات ممکن است به دلیل رفع اشکال، بهبود و اصلاح کدها، ویدئوها با کدهای آموزشی کمی متفاوت باشند.
 
-If you want to see the exact versions of the source-code that were used in the YouTube videos,
-then you can [browse the history](https://github.com/Hvass-Labs/TensorFlow-Tutorials/commits/master)
+اگر می‌خواهید ورژن دقیق کدهای استفاده شده در ویدئوهای آموزشی را بدانید، می‌توانید [تاریخچه](https://github.com/Hvass-Labs/TensorFlow-Tutorials/commits/master) commitهای github را بررسی کنید.
 of commits to the GitHub repository.
 
 ## License (MIT)
