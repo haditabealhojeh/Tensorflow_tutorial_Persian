@@ -66,6 +66,7 @@
 ([Google Colab](https://colab.research.google.com/github/Hvass-Labs/TensorFlow-Tutorials/blob/master/11_Adversarial_Examples.ipynb))
 
 12. نویز تخاصمی برای دیتاست MNIST
+
 ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/12_Adversarial_Noise_MNIST.ipynb))
 ([Google Colab](https://colab.research.google.com/github/Hvass-Labs/TensorFlow-Tutorials/blob/master/12_Adversarial_Noise_MNIST.ipynb))
 
@@ -119,7 +120,7 @@
 
 ## آموزش‌های ویدئویی
 
-آموزش ویدئویی هر بخش در [ویدئوها] موجود است(https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ).
+آموزش ویدئویی هر بخش در [ویدئوها](https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ) موجود است.
 
 ## Obsolete Tutorials
 
