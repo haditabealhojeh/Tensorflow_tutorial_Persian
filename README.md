@@ -178,46 +178,41 @@
 
 ### Environment
 
-I use [Anaconda](https://www.continuum.io/downloads) because it comes with many Python
-packages already installed and it is easy to work with. After installing Anaconda,
-you should create a [conda environment](http://conda.pydata.org/docs/using/envs.html)
-so you do not destroy your main installation in case you make a mistake somewhere:
+پیشنهاد می‌شود که از توزیع [Anaconda](https://www.continuum.io/downloads) استفاده شود چون پکیج‌های پایتون زیادی به همراه دارد. 
+
+پس از نصب anaconda,
+شما باید یک [conda environment](http://conda.pydata.org/docs/using/envs.html)
+بسازید:
 
     conda create --name tf python=3
 
-When Python gets updated to a new version, it takes a while before TensorFlow also
-uses the new Python version. So if the TensorFlow installation fails, then you may
-have to specify an older Python version for your new environment, such as: 
+هر وقت آپدیت جدیدی برای پایتون منتشر شود، مدتی طول می‌کشد تا تنسورفلو آپدیت شده و از آن استفاده کند. اگر در نصب تنسورفلو دچا می‌توانید نسخه پایین‌تری از پایتون را انتخاب کنید. مثلا مانند زیر می‌توانید شماره نسخه پایتون را مستقیما تعیین کنید. ر مشکل شدید: 
 
     conda create --name tf python=3.6
 
-Now you can switch to the new environment by running the following (on Linux):
+حالا می‌توانید به environment جدید وارد شوید (در Linux):
 
     source activate tf
 
-### Required Packages
+### پکیج‌های پیش‌نیاز 
 
-The tutorials require several Python packages to be installed. The packages are listed in
+پکیج‌های پیش‌نیازی که باید نصب شوند در فایل
 [requirements.txt](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/requirements.txt)
-First you need to edit this file and select whether you want to install the CPU or GPU
-version of TensorFlow.
+لیست شده‌اند. ابتدا نیاز است تا این فایل را ویرایش کرده و تعیین کنید که می‌خواهید ورژن cpu تنسورفلو را نصب کنید و یا gpu را.
 
-To install the required Python packages and dependencies you first have to activate the
-conda-environment as described above, and then you run the following command
-in a terminal:
+برای نصب پکیج‌های مورد نیاز، لازم است پس از فعال کردن envirnment که در مرحله قبل توضیح داده شد، دستور زیر را اجرا کنید:
 
     pip install -r requirements.txt
 
-Note that the GPU-version of TensorFlow also requires the installation of various
-NVIDIA drivers, which is not described here.
+توجه کنید که نصب نسخه‌ی gpu تنسورفلو نیاز به نصب درایورهای nvidia متعددی است که در اینجا توضیح داده نشده است.
 
-### Python Version 3.5 or Later
+### نسخه پایتون مورد نیاز
 
-These tutorials were developed on Linux using **Python 3.5 / 3.6** (the [Anaconda](https://www.continuum.io/downloads) distribution) and [PyCharm](https://www.jetbrains.com/pycharm/).
+این آموزش در سیستم عامل لینوکس و با نسخه‌ی **Python 3.5 / 3.6** (و توزیع [Anaconda](https://www.continuum.io/downloads)) و [PyCharm](https://www.jetbrains.com/pycharm/) توسعه داده شده است.
 
-There are reports that Python 2.7 gives error messages with these tutorials. Please make sure you are using **Python 3.5** or later!
+ممکن است با پایتون نسخه 2.7 پیغام خطا دریافت کنید. پس لطفا اطمینان حاص کنید که از نسخه **Python 3.5** یا جدیدتر استفاده می‌کنید!
 
-## How To Run
+## اجرای کد
 
 If you have followed the above installation instructions, you should
 now be able to run the tutorials in the Python Notebooks:
