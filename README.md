@@ -1,4 +1,8 @@
+<div dir="rtl">
+
 ## آموزش tensorflow
+
+</div>
 
 [Original repository on GitHub](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
