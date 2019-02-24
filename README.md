@@ -1,9 +1,6 @@
 <div dir="rtl">
 
 ## آموزش tensorflow
-
-</div>
-
 [Original repository on GitHub](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
 Original author is [Magnus Erik Hvass Pedersen](http://www.hvass-labs.org)
@@ -276,3 +273,6 @@ A few of the images used for demonstration purposes may be under copyright. Thes
 
 You are very welcome to modify these tutorials and use them in your own projects.
 Please keep a link to the [original repository](https://github.com/Hvass-Labs/TensorFlow-Tutorials).
+
+</div>
+
