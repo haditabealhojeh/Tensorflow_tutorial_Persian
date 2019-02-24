@@ -245,7 +245,7 @@
 برخی اوقات ممکن است به دلیل رفع اشکال، بهبود و اصلاح کدها، ویدئوها با کدهای آموزشی کمی متفاوت باشند.
 
 اگر می‌خواهید ورژن دقیق کدهای استفاده شده در ویدئوهای آموزشی را بدانید، می‌توانید [تاریخچه](https://github.com/Hvass-Labs/TensorFlow-Tutorials/commits/master) commitهای github را بررسی کنید.
-of commits to the GitHub repository.
+</div>
 
 ## License (MIT)
 
@@ -257,5 +257,4 @@ A few of the images used for demonstration purposes may be under copyright. Thes
 You are very welcome to modify these tutorials and use them in your own projects.
 Please keep a link to the [original repository](https://github.com/Hvass-Labs/TensorFlow-Tutorials).
 
-</div>
 
