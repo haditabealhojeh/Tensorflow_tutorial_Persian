@@ -8,7 +8,7 @@
 ## مقدمه
 
 * این آموزش برای علاقه مندان به شبکه‌های عمیق و تنسورفلو می‌باشد.
-* هر بخش از آموزش یک موضوع را چوشش می‌دهد و کد ان نیز قرار داده شده است.
+* هر بخش از آموزش یک موضوع را پوشش می‌دهد و کد آن نیز قرار داده شده است.
 * آموزش‌های ویدئویی هر بخش در [YouTube] قرار داده شده است که به زبان انگلیسی می‌باشد. (https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ)
 
 ## سرفصل مطالب
@@ -23,7 +23,7 @@
 ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/02_Convolutional_Neural_Network.ipynb))
 ([Google Colab](https://colab.research.google.com/github/Hvass-Labs/TensorFlow-Tutorials/blob/master/02_Convolutional_Neural_Network.ipynb))
 
-3. ~~تانسورها~~
+3. ~~معرفی PrettyTensor API~~
 
 ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/03_PrettyTensor.ipynb))
 ([Google Colab](https://colab.research.google.com/github/Hvass-Labs/TensorFlow-Tutorials/blob/master/03_PrettyTensor.ipynb))
@@ -147,64 +147,34 @@
 
 آموزش ویدئویی هر بخش در [ویدئوها](https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ) موجود است.
 
-## Obsolete Tutorials
+## کتابخانه‌های منسوخ
 
-Some of these tutorials use an API called PrettyTensor for creating
-Neural Networks in TensorFlow, but the PrettyTensor API is now obsolete.
-Some of the Notebooks are therefore also obsolete and they are clearly
-marked at the top of each Notebook. It is recommended that you
-instead use the Keras API for creating Neural Networks in TensorFlow.
+در بعضی از آموزش‌ها از PrettyTensor API برای ساختن شبکه‌های عصبی استفاده شده است که تقریبا منسوخ شده است. بنابر این پیشنهاد می‌شود از Keras API برای ساخت شبکه‌های عصبی استفاده کنید.
 
-## Translations
+## نصب
 
-These tutorials have been translated to the following languages:
+راه‌های متفاوتی برای نصب و استفاده از Tensorflow وجود دارد.در زیر یکی از روش‌های نصب آن توضیح داده شده است. شما می‌توانید از سایر روش‌ها آن را نصب کنید.
 
-* [Chinese](https://github.com/Hvass-Labs/TensorFlow-Tutorials-Chinese)
+در زیر روش نصب واستفاده از فایل‌های آموزش در سیستم عامل Linux شرح داده شده است. همچنین می‌توانید از Google Colab برای اجرای کدها استفاده کنید.
 
-### New Translations
-
-You can help by translating the remaining tutorials or reviewing the ones that have already been translated. You can also help by translating to other languages.
-
-It is a very big job to translate all the tutorials, so you should just start with Tutorials #01, #02 and #03-C which are the most important for beginners.
-
-### New Videos
-
-You are also very welcome to record your own YouTube videos in other languages. It is strongly recommended that you get a decent microphone because good sound quality is very important. I used `vokoscreen` for recording the videos and the free [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/) for editing the videos.
-
-## Forks
-
-See the [selected list of forks](forks.md) for community modifications to these tutorials.
-
-## Installation
-
-There are different ways of installing and running TensorFlow. This section describes how I did it
-for these tutorials. You may want to do it differently and you can search the internet for instructions.
-
-If you are new to using Python and Linux then this may be challenging
-to get working and you may need to do internet searches for error-messages, etc.
-It will get easier with practice. You can also run the tutorials without installing
-anything by using Google Colab, see further below.
-
-Some of the Python Notebooks use source-code located in different files to allow for easy re-use
-across multiple tutorials. It is therefore recommended that you download the whole repository
-from GitHub, instead of just downloading the individual Python Notebooks.
+برخی کدها یا ماژول‌های مشترک بین آموزش‌ها در فایل جداگانه‌ای ذخیره شده‌اند تا سایر فایل‌ها بتوانند از آن‌ها استفاده کنند. بنابراین کل فایل‌ها را دانلود کنید و نه به‌صورت تک تک. 
 
 ### Git
 
-The easiest way to download and install these tutorials is by using git from the command-line:
+آسانترین راه استفاده از کدها، استفاده از دستور git در خط فرمان لینوکس است:
 
     git clone https://github.com/Hvass-Labs/TensorFlow-Tutorials.git
 
-This will create the directory `TensorFlow-Tutorials` and download all the files to it.
+دستور فوق یک دایرکتوری به نام `TensorFlow-Tutorials` ایجاد کرده و فایل‌ها را در آن دانلود می‌کند.
 
-This also makes it easy to update the tutorials, simply by executing this command inside that directory:
+همچنین با اجرای دستور زیر در دایرکتوری کدها، میتوان آن@ها را بروزرسانی کرد:
 
     git pull
 
-### Download Zip-File
+### دانلود Zip-File
 
-You can also [download](https://github.com/Hvass-Labs/TensorFlow-Tutorials/archive/master.zip)
-the contents of the GitHub repository as a Zip-file and extract it manually.
+همچنین میتوانید فایل‌های فوق رااز github و به‌صورت یک فایل فشرده [دانلود](https://github.com/Hvass-Labs/TensorFlow-Tutorials/archive/master.zip)
+کنید.
 
 ### Environment
 
