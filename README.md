@@ -3,7 +3,7 @@
 ## آموزش tensorflow
 [صفحه انگلیسی اصلی این آموزش](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
-نویسنده اصلی این آموزش [Magnus Erik Hvass Pedersen] (http://www.hvass-labs.org) است.
+نویسنده اصلی این آموزش [Magnus Erik Hvass Pedersen](http://www.hvass-labs.org) است.
 
 ## مقدمه
 
