@@ -1,4 +1,4 @@
-#آموزشtensorflow
+#tensorflow
 
 [Original repository on GitHub](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
