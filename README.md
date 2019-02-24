@@ -1,13 +1,13 @@
 <div dir="rtl">
 
 ## آموزش tensorflow
-[Original repository on GitHub](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
+[صفحه انگلیسی اصلی این آموزش](https://github.com/Hvass-Labs/TensorFlow-Tutorials)
 
-Original author is [Magnus Erik Hvass Pedersen](http://www.hvass-labs.org)
+نویسنده اصلی این آموزش [Magnus Erik Hvass Pedersen] است (http://www.hvass-labs.org)
 
-## Introduction
+## مقدمه
 
-* These tutorials are intended for beginners in Deep Learning and TensorFlow.
+* این آموزش برای علاقه مندان به شبکه‌های عمیق و تنسورفلو می‌باشد.
 * Each tutorial covers a single topic.
 * The source-code is well-documented.
 * There is a [YouTube video](https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ) for each tutorial.
